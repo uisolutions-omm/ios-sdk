@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OMMWifi_Example' do
+  pod 'OMMWifi', :path => '../'
+
+  target 'OMMWifi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

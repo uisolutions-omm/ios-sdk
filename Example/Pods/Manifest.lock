@@ -1,0 +1,16 @@
+PODS:
+  - OMMWifi (0.1.0)
+
+DEPENDENCIES:
+  - OMMWifi (from `../`)
+
+EXTERNAL SOURCES:
+  OMMWifi:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OMMWifi: 6e22993f2bb4cf407308c111e317b596a7585e30
+
+PODFILE CHECKSUM: 76bb3af880ef4dc41c3c83e47ce28da7ade266c9
+
+COCOAPODS: 1.2.0

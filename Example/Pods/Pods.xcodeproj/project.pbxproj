@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0055CFCB5D2DE9D80D9D2CC473FC52CB /* OMMWifi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EAE6A98318DDFD8F40849340BD3AF /* OMMWifi-dummy.m */; };
+		4DB84A66372CE1689D686BEC1D064D54 /* Pods-OMMWifi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8775A6C7FFBDEBF3AD3620166A2861A9 /* Pods-OMMWifi_Example-dummy.m */; };
+		5B260A4A130DD628DE5DEC2FE8BE5C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6AD82F2E0FDA9F6CEA8486DEEFC7B62D /* OMMWifi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 908A6B8954828AE34D2DB09372EA88ED /* OMMWifi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7307C32E9325975164043BB2785FD720 /* Pods-OMMWifi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EECCB6F4985996A3245E9A7DD1B39AF /* Pods-OMMWifi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE92DB1344A167A7CB7772698931394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9378498F425C0119CEA4487CFF0E9785 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A0827C87F36CF707A0E7E11F2A82C05B /* ReplaceMe.m */; };
+		98479B8F4BE5B6F77DD9127B7760AD44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C3659AD8BE046D70140EE84D576CFEF5 /* Pods-OMMWifi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903B7CB32EC77B226A092A54A7670B12 /* Pods-OMMWifi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33CA3A78FDD7C3ED5B76DF6322F7054 /* Pods-OMMWifi_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 799E55A7BE8F48F7B769781743ED963B /* Pods-OMMWifi_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6BB67D47DF9FEC7031AC4B2ADF5FF14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC39827FCA41E9E6E584FAB5A9C7387E;
+			remoteInfo = OMMWifi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16EE3FB0A7CE0EFBEAAB7C5277163611 /* Pods-OMMWifi_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OMMWifi_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1C6EAE6A98318DDFD8F40849340BD3AF /* OMMWifi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMMWifi-dummy.m"; sourceTree = "<group>"; };
+		32C43EE714DFE4111D6FAB074C41A059 /* Pods-OMMWifi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMMWifi_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5014A4F537F2F05FBAF7AE8E49512F22 /* Pods-OMMWifi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMMWifi_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B5550366F692FE843FA085DF52B5204 /* Pods-OMMWifi_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OMMWifi_Tests-resources.sh"; sourceTree = "<group>"; };
+		6430587A8B59E8AB02692FDDBF24F776 /* Pods-OMMWifi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMMWifi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		64A1C5F480D48CCC4DD02BE4929B0B0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADB49D54B6596B5FBF1D641F622FE82 /* OMMWifi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMMWifi-prefix.pch"; sourceTree = "<group>"; };
+		6C31BF628C49C4F1363ABCF0F542C693 /* Pods-OMMWifi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OMMWifi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		703A932A881DDDE24FA02C9062284119 /* Pods-OMMWifi_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OMMWifi_Example-resources.sh"; sourceTree = "<group>"; };
+		799E55A7BE8F48F7B769781743ED963B /* Pods-OMMWifi_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OMMWifi_Tests-dummy.m"; sourceTree = "<group>"; };
+		799F233C7B85E8B3A60E4BF55737E77A /* Pods-OMMWifi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OMMWifi_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7CBF1910F25F431B55F571695EA7973C /* Pods-OMMWifi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OMMWifi_Example.modulemap"; sourceTree = "<group>"; };
+		864184699B0F3A5C87E29046207FE61E /* Pods-OMMWifi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OMMWifi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8775A6C7FFBDEBF3AD3620166A2861A9 /* Pods-OMMWifi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OMMWifi_Example-dummy.m"; sourceTree = "<group>"; };
+		899E8C5634F902978AF76547DF64038C /* Pods-OMMWifi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OMMWifi_Tests.modulemap"; sourceTree = "<group>"; };
+		89D2816CFD36813645CC1D6536F7C3F6 /* Pods-OMMWifi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OMMWifi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		903B7CB32EC77B226A092A54A7670B12 /* Pods-OMMWifi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OMMWifi_Tests-umbrella.h"; sourceTree = "<group>"; };
+		908A6B8954828AE34D2DB09372EA88ED /* OMMWifi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMMWifi-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EECCB6F4985996A3245E9A7DD1B39AF /* Pods-OMMWifi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OMMWifi_Example-umbrella.h"; sourceTree = "<group>"; };
+		9FB65A6B59EE32F7CD6C0928F1C03EDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0827C87F36CF707A0E7E11F2A82C05B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		B4C35975504A321534C3F22B9468F1F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1BF882A9279935BA30C5DA2D68D1A5 /* Pods_OMMWifi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OMMWifi_Tests.framework; path = "Pods-OMMWifi_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7263B1338BD22997F44B042470C1FB5 /* OMMWifi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OMMWifi.framework; path = OMMWifi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D183BCC8E9DEE9E03C60BB1756178CD0 /* Pods-OMMWifi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OMMWifi_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D73D657F821645E6D7FE1BA6666EB730 /* OMMWifi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OMMWifi.modulemap; sourceTree = "<group>"; };
+		DFBE85E952BCC3C5249BEB34423C5F41 /* OMMWifi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMMWifi.xcconfig; sourceTree = "<group>"; };
+		E3584C5641FAD26D8238D54DF4FCCBF5 /* Pods_OMMWifi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OMMWifi_Example.framework; path = "Pods-OMMWifi_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B72524B2EA2D411388C398FC95A63B /* Pods-OMMWifi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OMMWifi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154714CA19A3F5F21DB50D53CF6734DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B260A4A130DD628DE5DEC2FE8BE5C1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C5F9F44A6498A2A97B7509BDD5C435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE92DB1344A167A7CB7772698931394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E80427B7B2C5F27E5D4F3C627594F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98479B8F4BE5B6F77DD9127B7760AD44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14024A386C95DBD6C993727642E0777A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7263B1338BD22997F44B042470C1FB5 /* OMMWifi.framework */,
+				E3584C5641FAD26D8238D54DF4FCCBF5 /* Pods_OMMWifi_Example.framework */,
+				BC1BF882A9279935BA30C5DA2D68D1A5 /* Pods_OMMWifi_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A606ACCE4F0F9849CBF3435D549280F /* OMMWifi */ = {
+			isa = PBXGroup;
+			children = (
+				BBA92C98DB44D50A2407F19541A5F27E /* OMMWifi */,
+				AEFF1254EA74BC619BCC8859A078CCDC /* Support Files */,
+			);
+			name = OMMWifi;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		620094B12DB52753BB07B1A45D4D11C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A606ACCE4F0F9849CBF3435D549280F /* OMMWifi */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				620094B12DB52753BB07B1A45D4D11C1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				14024A386C95DBD6C993727642E0777A /* Products */,
+				91361391EC780164B5B5B97EC1512E01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91361391EC780164B5B5B97EC1512E01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1BE8231A2DD7BCF7726621725BE839 /* Pods-OMMWifi_Example */,
+				CF2D333F5C5DECBB7240FD3F794DA5E8 /* Pods-OMMWifi_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AEFF1254EA74BC619BCC8859A078CCDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4C35975504A321534C3F22B9468F1F3 /* Info.plist */,
+				D73D657F821645E6D7FE1BA6666EB730 /* OMMWifi.modulemap */,
+				DFBE85E952BCC3C5249BEB34423C5F41 /* OMMWifi.xcconfig */,
+				1C6EAE6A98318DDFD8F40849340BD3AF /* OMMWifi-dummy.m */,
+				6ADB49D54B6596B5FBF1D641F622FE82 /* OMMWifi-prefix.pch */,
+				908A6B8954828AE34D2DB09372EA88ED /* OMMWifi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OMMWifi";
+			sourceTree = "<group>";
+		};
+		BBA92C98DB44D50A2407F19541A5F27E /* OMMWifi */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC2804AE5DE3492593C91B8AB913C4 /* Classes */,
+			);
+			name = OMMWifi;
+			path = OMMWifi;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCEC2804AE5DE3492593C91B8AB913C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0827C87F36CF707A0E7E11F2A82C05B /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF2D333F5C5DECBB7240FD3F794DA5E8 /* Pods-OMMWifi_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64A1C5F480D48CCC4DD02BE4929B0B0C /* Info.plist */,
+				899E8C5634F902978AF76547DF64038C /* Pods-OMMWifi_Tests.modulemap */,
+				89D2816CFD36813645CC1D6536F7C3F6 /* Pods-OMMWifi_Tests-acknowledgements.markdown */,
+				6C31BF628C49C4F1363ABCF0F542C693 /* Pods-OMMWifi_Tests-acknowledgements.plist */,
+				799E55A7BE8F48F7B769781743ED963B /* Pods-OMMWifi_Tests-dummy.m */,
+				16EE3FB0A7CE0EFBEAAB7C5277163611 /* Pods-OMMWifi_Tests-frameworks.sh */,
+				5B5550366F692FE843FA085DF52B5204 /* Pods-OMMWifi_Tests-resources.sh */,
+				903B7CB32EC77B226A092A54A7670B12 /* Pods-OMMWifi_Tests-umbrella.h */,
+				6430587A8B59E8AB02692FDDBF24F776 /* Pods-OMMWifi_Tests.debug.xcconfig */,
+				32C43EE714DFE4111D6FAB074C41A059 /* Pods-OMMWifi_Tests.release.xcconfig */,
+			);
+			name = "Pods-OMMWifi_Tests";
+			path = "Target Support Files/Pods-OMMWifi_Tests";
+			sourceTree = "<group>";
+		};
+		DE1BE8231A2DD7BCF7726621725BE839 /* Pods-OMMWifi_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9FB65A6B59EE32F7CD6C0928F1C03EDC /* Info.plist */,
+				7CBF1910F25F431B55F571695EA7973C /* Pods-OMMWifi_Example.modulemap */,
+				F4B72524B2EA2D411388C398FC95A63B /* Pods-OMMWifi_Example-acknowledgements.markdown */,
+				864184699B0F3A5C87E29046207FE61E /* Pods-OMMWifi_Example-acknowledgements.plist */,
+				8775A6C7FFBDEBF3AD3620166A2861A9 /* Pods-OMMWifi_Example-dummy.m */,
+				D183BCC8E9DEE9E03C60BB1756178CD0 /* Pods-OMMWifi_Example-frameworks.sh */,
+				703A932A881DDDE24FA02C9062284119 /* Pods-OMMWifi_Example-resources.sh */,
+				9EECCB6F4985996A3245E9A7DD1B39AF /* Pods-OMMWifi_Example-umbrella.h */,
+				799F233C7B85E8B3A60E4BF55737E77A /* Pods-OMMWifi_Example.debug.xcconfig */,
+				5014A4F537F2F05FBAF7AE8E49512F22 /* Pods-OMMWifi_Example.release.xcconfig */,
+			);
+			name = "Pods-OMMWifi_Example";
+			path = "Target Support Files/Pods-OMMWifi_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F1C5454AB25293A131327A0EB5A201D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3659AD8BE046D70140EE84D576CFEF5 /* Pods-OMMWifi_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC94F8DC589C56F7A22785F444E7F44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD82F2E0FDA9F6CEA8486DEEFC7B62D /* OMMWifi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C7E88F277DD2D2C92ADFDE2CA398E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7307C32E9325975164043BB2785FD720 /* Pods-OMMWifi_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9E217C438550857F7C90D38A1F4ED7CD /* Pods-OMMWifi_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8B5D7BD3A89CF82581D932E10A1B5D /* Build configuration list for PBXNativeTarget "Pods-OMMWifi_Example" */;
+			buildPhases = (
+				620B430E13140EA83FB11C4327621E97 /* Sources */,
+				154714CA19A3F5F21DB50D53CF6734DA /* Frameworks */,
+				C8C7E88F277DD2D2C92ADFDE2CA398E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB855B846F185FCFFFF34AE3A1E1D32 /* PBXTargetDependency */,
+			);
+			name = "Pods-OMMWifi_Example";
+			productName = "Pods-OMMWifi_Example";
+			productReference = E3584C5641FAD26D8238D54DF4FCCBF5 /* Pods_OMMWifi_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC39827FCA41E9E6E584FAB5A9C7387E /* OMMWifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74F9EC68A72B9C4ABEABD38022CF242 /* Build configuration list for PBXNativeTarget "OMMWifi" */;
+			buildPhases = (
+				A5AE209D6F0BA5AD8CDA86DAD927BD01 /* Sources */,
+				E9E80427B7B2C5F27E5D4F3C627594F0 /* Frameworks */,
+				8FC94F8DC589C56F7A22785F444E7F44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMMWifi;
+			productName = OMMWifi;
+			productReference = C7263B1338BD22997F44B042470C1FB5 /* OMMWifi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDF92E5CFCC68427B7542E185BD8FEA7 /* Pods-OMMWifi_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BCCEED05CCFE3392603EB7E28D9B5A /* Build configuration list for PBXNativeTarget "Pods-OMMWifi_Tests" */;
+			buildPhases = (
+				453A865B53AB0438C1F3EFF2F7982875 /* Sources */,
+				73C5F9F44A6498A2A97B7509BDD5C435 /* Frameworks */,
+				0F1C5454AB25293A131327A0EB5A201D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OMMWifi_Tests";
+			productName = "Pods-OMMWifi_Tests";
+			productReference = BC1BF882A9279935BA30C5DA2D68D1A5 /* Pods_OMMWifi_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 14024A386C95DBD6C993727642E0777A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC39827FCA41E9E6E584FAB5A9C7387E /* OMMWifi */,
+				9E217C438550857F7C90D38A1F4ED7CD /* Pods-OMMWifi_Example */,
+				BDF92E5CFCC68427B7542E185BD8FEA7 /* Pods-OMMWifi_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453A865B53AB0438C1F3EFF2F7982875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33CA3A78FDD7C3ED5B76DF6322F7054 /* Pods-OMMWifi_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620B430E13140EA83FB11C4327621E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DB84A66372CE1689D686BEC1D064D54 /* Pods-OMMWifi_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AE209D6F0BA5AD8CDA86DAD927BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0055CFCB5D2DE9D80D9D2CC473FC52CB /* OMMWifi-dummy.m in Sources */,
+				9378498F425C0119CEA4487CFF0E9785 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB855B846F185FCFFFF34AE3A1E1D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMMWifi;
+			target = AC39827FCA41E9E6E584FAB5A9C7387E /* OMMWifi */;
+			targetProxy = E6BB67D47DF9FEC7031AC4B2ADF5FF14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DF4A878CA567941B1A8A8CC2B887B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6430587A8B59E8AB02692FDDBF24F776 /* Pods-OMMWifi_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OMMWifi_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OMMWifi_Tests/Pods-OMMWifi_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OMMWifi_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A055AE7D0534248C670954B7AB16FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799F233C7B85E8B3A60E4BF55737E77A /* Pods-OMMWifi_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OMMWifi_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OMMWifi_Example/Pods-OMMWifi_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OMMWifi_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A70AA9B6D010E632F14979762ACF56B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5014A4F537F2F05FBAF7AE8E49512F22 /* Pods-OMMWifi_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OMMWifi_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OMMWifi_Example/Pods-OMMWifi_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OMMWifi_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86FE63646D48C9FC37678CA3B26A0165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBE85E952BCC3C5249BEB34423C5F41 /* OMMWifi.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMMWifi/OMMWifi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OMMWifi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OMMWifi/OMMWifi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OMMWifi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9EDFDCC2E4E4311E22797B6FE9DE418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBE85E952BCC3C5249BEB34423C5F41 /* OMMWifi.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMMWifi/OMMWifi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OMMWifi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OMMWifi/OMMWifi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OMMWifi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABCFCA94DB50B0BCF8D65B9AEAFD709B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C43EE714DFE4111D6FAB074C41A059 /* Pods-OMMWifi_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OMMWifi_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OMMWifi_Tests/Pods-OMMWifi_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OMMWifi_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8B5D7BD3A89CF82581D932E10A1B5D /* Build configuration list for PBXNativeTarget "Pods-OMMWifi_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A055AE7D0534248C670954B7AB16FA3 /* Debug */,
+				7A70AA9B6D010E632F14979762ACF56B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BCCEED05CCFE3392603EB7E28D9B5A /* Build configuration list for PBXNativeTarget "Pods-OMMWifi_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF4A878CA567941B1A8A8CC2B887B3E /* Debug */,
+				ABCFCA94DB50B0BCF8D65B9AEAFD709B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74F9EC68A72B9C4ABEABD38022CF242 /* Build configuration list for PBXNativeTarget "OMMWifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EDFDCC2E4E4311E22797B6FE9DE418 /* Debug */,
+				86FE63646D48C9FC37678CA3B26A0165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

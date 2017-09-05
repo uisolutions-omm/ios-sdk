@@ -1,0 +1,13 @@
+//
+//  Constants.pch
+//  OMMWifi
+//
+//  Created by Apple on 31/01/17.
+//  Copyright © 2017 onmymobile. All rights reserved.
+//
+
+#ifndef Constants_pch
+#define Constants_pch
+
+
+#endif /* Constants_pch */

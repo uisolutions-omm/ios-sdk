@@ -1,0 +1,22 @@
+{
+  "name": "OMMWifi",
+  "version": "0.1.0",
+  "summary": "A short description of OMMWifi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/karthik1739/OMMWifi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "karthik1739": "karthik@onmymobile.co"
+  },
+  "source": {
+    "git": "https://github.com/karthik1739/OMMWifi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OMMWifi/Classes/**/*"
+}

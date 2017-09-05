@@ -1,0 +1,6 @@
+framework module Pods_OMMWifi_Example {
+  umbrella header "Pods-OMMWifi_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
