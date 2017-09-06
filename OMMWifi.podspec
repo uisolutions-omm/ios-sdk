@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Krishna Chaitanya' => 'kchaitanya@onmymobile.co' }
-  s.source           = { :git => 'https://github.com/uisolutions-omm/ios-sdk', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/uisolutions-omm/ios-sdk.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'OMMWifi/Classes/**/*'
   
