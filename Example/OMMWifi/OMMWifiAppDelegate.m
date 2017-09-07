@@ -7,13 +7,19 @@
 //
 
 #import "OMMWifiAppDelegate.h"
+#import "OMMWifiAPIController.h"
 
 
 @implementation OMMWifiAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    //Initialising OMMWifi
+    
+    [[OMMWifiAPIController sharedInstance] performWifiRecharge];
+    
+    
     return YES;
 }
 

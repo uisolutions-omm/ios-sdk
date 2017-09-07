@@ -20,9 +20,36 @@ it, simply add the following line to your Podfile:
 pod 'OMMWifi'
 ```
 
+## Initialising OMMWifi
+
+Import the OMMWifi in your AppDelegate
+
+```sh
+#import "OMMWifiAPIController.h"
+```
+
+Add this method to didFinishLaunchingWithOptions in AppDelegate
+
+```sh
+[[OMMWifiAPIController sharedInstance] performWifiRecharge];
+```
+
+## Configuring Location Permission
+
+To enable location permissions add these lines to info.plist of the project
+
+```sh
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This application requires location services to work</string>
+
+<key>NSLocationAlwaysUsageDescription</key>
+<string>This application requires location services to work</string>
+```
+
+
 ## Author
 
-karthik1739, karthik@onmymobile.co
+Krishna Chaitanya, kchaitanya@onmymobile.co
 
 ## License
 
