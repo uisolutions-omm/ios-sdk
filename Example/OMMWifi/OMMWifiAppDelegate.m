@@ -16,7 +16,6 @@
 {
     
     //Initialising OMMWifi
-    
     [[OMMWifiAPIController sharedInstance] performWifiRecharge];
     
     

@@ -1,6 +1,0 @@
-framework module OMMWifi {
-  umbrella header "OMMWifi-umbrella.h"
-
-  export *
-  module * { export * }
-}

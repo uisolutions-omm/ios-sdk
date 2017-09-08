@@ -1,22 +1,76 @@
 {
   "name": "OMMWifi",
-  "version": "0.1.0",
-  "summary": "A short description of OMMWifi.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/karthik1739/OMMWifi",
+  "version": "1.0",
+  "summary": "OnMyMobile sdk will help app developers to get more users by promising users a small and relevant incentive. In this version we are giving free WiFi at QFI public WiFi Hotspots when users install the app. For technical integration details or other information please contact kchaitanya@onmymobile.co",
+  "homepage": "https://github.com/uisolutions-omm/ios-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "karthik1739": "karthik@onmymobile.co"
+    "Krishna Chaitanya": "kchaitanya@onmymobile.co"
   },
   "source": {
-    "git": "https://github.com/karthik1739/OMMWifi.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/uisolutions-omm/ios-sdk.git",
+    "tag": "1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "OMMWifi/Classes/**/*"
+  "source_files": "OMMWifi/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "Contacts",
+    "MessageUI",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "Security",
+    "QuartzCore",
+    "CoreGraphics"
+  ],
+  "dependencies": {
+    "CleverTap-iOS-SDK": [
+
+    ],
+    "Firebase/Core": [
+
+    ],
+    "Firebase/AdMob": [
+
+    ],
+    "Firebase/Messaging": [
+
+    ],
+    "Firebase/Database": [
+
+    ],
+    "Firebase/Invites": [
+
+    ],
+    "Firebase/DynamicLinks": [
+
+    ],
+    "Firebase/Crash": [
+
+    ],
+    "Firebase/RemoteConfig": [
+
+    ],
+    "Firebase/Auth": [
+
+    ],
+    "Firebase/Storage": [
+
+    ],
+    "Firebase/Performance": [
+
+    ]
+  },
+  "ios": {
+    "vendored_frameworks": [
+      "OMMWifi/Classes/OMMWifi/Dependencies/CleverTapSDK.framework",
+      "OMMWifi/Classes/OMMWifi/Config/Configuration.framework"
+    ]
+  }
 }
