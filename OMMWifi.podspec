@@ -31,7 +31,6 @@ s.dependency 'Firebase/Auth'
 s.dependency 'Firebase/Storage'
 s.dependency 'Firebase/Performance'
 
-  s.ios.vendored_frameworks ='OMMWifi/Classes/OMMWifi/Dependencies/CleverTapSDK.framework', 'OMMWifi/Classes/OMMWifi/Config/Configuration.framework'
 
 
 
